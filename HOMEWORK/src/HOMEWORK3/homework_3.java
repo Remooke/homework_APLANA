@@ -14,7 +14,7 @@ public class homework_3 {
         int last = nums[nums.length-1];
         nums[nums.length-1] = first;
         nums[0] = last;
-        int average = nums[(nums.length)/2];
+        int average = nums[(nums.length-1)/2];
         int summ = average + nums[0];
         System.out.printf("сумма первого и среднего элемента = %d", summ);
     }
